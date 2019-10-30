@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="hd.gene.variation.SnpGeneMapper">
+    <resultMap id="SnpGeneMap" type="hd.gene.variation.SnpGene">
+        <result property="snpName" column="name"/>
+        <result property="geneName" column="gene_name"/>
+    </resultMap>
+	<select id="retrieveSnpGenes" resultMap="SnpGeneMap">
+		SELECT V.name, G.gene_name
+			FROM variation V, variation_genename G
+			where (V.variation_id = G.variation_id) and V.name in
+			    <foreach item="item" index="index" collection="array"
+			             open="(" separator="," close=")">
+			        #{item}
+			    </foreach>
+	</select>
+</mapper>

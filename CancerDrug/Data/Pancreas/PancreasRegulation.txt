@@ -1,0 +1,13 @@
+HS;Pax4;Pdx1;1;1
+HS;Pdx1;Ptf1a;1;0
+HS;Ptf1a;Ptf1a;1;1
+HS;Ngn3;Ptf1a;1;-1
+HS;Pdx1;Ngn3;1;0
+HS;Ptf1a;Ngn3;1;-1
+HS;Ngn3;Ngn3;1;1
+HS;Ngn3;Pax4;1;0
+HS;Pax4;Pax4;1;1
+HS;Arx;Pax4;1;-1
+HS;Ngn3;Arx;1;0
+HS;Pax4;Arx;1;-1
+HS;Arx;Arx;1;1

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+  <environments default="development">
+    <environment id="development">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://ensembldb.ensembl.org:3306/homo_sapiens_variation_80_38"/>
+        <property name="username" value="anonymous"/>
+        <property name="password" value=""/>
+      </dataSource>
+    </environment>
+  </environments>
+  <mappers>
+    <mapper resource="hd/gene/variation/PhenotypeFeatureAttributeTypeMapper.xml"/>
+    <mapper resource="hd/gene/variation/PhenotypeFeatureAttributeMapper.xml"/>
+    <mapper resource="hd/gene/variation/SnpClinicalSignificanceMapper.xml"/>
+    <mapper resource="hd/gene/variation/PhenotypeNameDescriptionMapper.xml"/>
+    <mapper resource="hd/gene/variation/SnpGeneMapper.xml"/>
+  </mappers>
+</configuration>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="hd.gene.variation.SnpClinicalSignificanceMapper">
+    <resultMap id="SnpClinicalSignificanceMap" type="hd.gene.variation.SnpClinicalSignificance">
+        <result property="snpName" column="name"/>
+        <result property="cliSigs" column="clinical_significance"/>
+    </resultMap>
+	<select id="retrieveSnpClinicalSignificances" resultMap="SnpClinicalSignificanceMap">
+		select variation.name, clinical_significance 
+			from variation 
+			where clinical_significance is not null;
+	</select>
+</mapper>

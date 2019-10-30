@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="hd.gene.variation.PhenotypeFeatureAttributeTypeMapper">
+    <resultMap id="PhenotypeFeatureAttributeTypeMap" type="hd.gene.variation.PhenotypeFeatureAttributeType">
+        <result property="attribTypeId" column="attrib_type_id"/>
+    </resultMap>
+	<select id="retrieveAttributeType" resultMap="PhenotypeFeatureAttributeTypeMap">
+		select attrib_type_id from attrib_type where code =#{code}	
+	</select>
+</mapper>

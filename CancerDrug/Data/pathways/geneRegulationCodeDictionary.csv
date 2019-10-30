@@ -1,0 +1,11 @@
+geneReg,Code
+dephosphorylation,0
+compound,1
+indirect effect,2
+activation,3
+dissociation,4
+binding/association,5
+inhibition,6
+expression,7
+phosphorylation,8
+ubiquitination,9

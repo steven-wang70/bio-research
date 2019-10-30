@@ -1,0 +1,105 @@
+Target			Activators																Inhibitors
+
+Cell Cycles:
+
+Cdk2 			MAPK  																	C/EBPα , Gata1/2 
+Cdk6 			Hoxa9 , MAPK , Pu.1  													Gata1/2 , p53 
+Cyclin D 		E2F , EGFR , Myc  														p27 , p53 
+Cyclin E 		Bach1 , E2F , Myc  														PTEN , p21 , p27 
+E2F 			E2F , Myc  																p21 
+Myc 			E2F , MAPK , Notch , SHH , Wnt , pRb 									AP2 , TGF-β , p53 
+p21 			AP2 , C/EBPα , Gata1/2 , TGF-β , TNF-α , p53 							Akt , Hes1 , Myc 
+p27 			Gata1/2 , PTEN , Stat1 , TGF-β 											Akt , Hes1 , Myc 
+pRb 			Cdk2 , Cdk6 , Cyclin D , Cyclin E 
+Ras 			EGFR , FGFR2 , IL-6 , VEGF 												p53 
+
+
+Apoptosis:
+Bad 			TNF-α , p53  															Akt , MAPK , NF-κB , p21 
+Bax 			Bim , p53  																Akt , Bcl-2 , Sox4 
+Bcl-2 			Integrin , NF-κB , VEGF  												Caspase 3 , TGF-β , p53 
+Bcl-xL 			EGFR , NF-κB , Stat5  													Caspase 3 
+Bim 																					Akt , MAPK 
+Caspase 3 		Bad , Caspase 8 , Cytochrome C , Fas , TNF-α 							NF-κB , XIAP 
+Caspase 8 		Fas , TNF-α  			NF-κB 
+Cytochrome C 	Bad , Bax , Caspase 3 													Bcl-2 , Bcl-xL , p21 
+Fas 			TNF-α  																	Ras 
+XIAP 			Akt , Integrin , MAPK , NF-κB , RARs 									Caspase 3 
+
+Differentiation
+C/EBPα 			C/EBPβ , NOG , Runx1  													HIF , IL-1 , NR2F2 , Notch , SHH , Stat5 
+C/EBPβ 			AP2 , IL-1 , MAPK  														Akt , Hoxa3 , TGF-β 
+Cdx2 			BMP , Gata1/2 , MAPK , Sox2 , c-Jun 									*C/EBPβ , Sox9 , Stat3 , TGF-β 
+Gata1/2 		Cdx2 , Notch , Stat3  													Hes1 , Hoxa10 , Pu.1 , VEGF , c-Jun 
+Gata4/6 		PKA , Sox7 , Wnt  														Hey2 , PRDM14 , Sox2 , c-Jun 
+Hes1 			Notch , TGF-β 
+Hey2 			Notch 
+Hoxa10 			BMP , Hoxa9 , Stat5 , Wnt 												Cdx2 
+Hoxa3 			RARs , Wnt , c-Jun  													Stat3 
+Hoxa5 			Hoxa10 , RARs  															Runx1 
+Hoxa9 			C/EBPα , Notch , Pu.1  													NF-κB 
+PGC-1 			C/EBPβ , IFN-γ  														p53 
+PPARγ 			C/EBPα , C/EBPβ  														NR2F2 , RARs , TGF-β , TNF-α 
+PRDM14 			Stat3 
+Pu.1 			C/EBPα , Runx1  														Gata1/2 , Sox4 
+Runx1 			Cdx2 , Gata1/2 , Notch , Sox2 , c-Jun 									Hoxa3 , Stat5 
+Runx2 			BMP , Hoxa10 , Runx1 , TGF-β 											C/EBPβ , NR2F2 , Notch , Stat5 
+Sox2 			AP2 , FGFR2 , Stat3 , Wnt 												p21 
+Sox4 			Sox7 , Stat5 , TGF-β , Wnt 												C/EBPα 
+Sox7 			BMP , c-Jun  															PRDM14 
+Sox9 			AP2 , BMP , PKA , SHH , TGF-β , Wnt 									IL-1 , NF-κB , RARs , c-Jun 
+
+
+Immune Response
+IFN-γ 			NF-κB , OPN , Runx1 , Stat1 
+IL-1 			C/EBPβ , NF-κB , OPN , Stat1 											AP2 , Akt , C/EBPα 
+IL-10 			Fas , TNF-α  															IL-10 
+IL-3 			C/EBPα , Runx1 [195–197
+IL-6 			C/EBPβ , Hoxa3 , NGAL  													RARs , Sox2 
+IL-8 			NF-κB , Stat1 , TGF-β , c-Jun 											Stat3 
+iκB 			NF-κB , TGF-β  															Akt , EGF , Fas , TNF-α 
+NF-κB 			C/EBPβ , IFN-γ , IL-1 , TNF-α 											Cdx2 , PPARγ , Sox2 , iκB 
+Stat1 			IFN-γ  																	OPN , TGF-β 
+Stat3 			FGFR2 , G-CSFR , IL-6 , IL-8 , OPN , VEGF 								Gata1/2 , PPARγ , PTEN , RARs 
+Stat5 			FGFR2 , G-CSFR , IL-3 , VEGF 											Runx1 , Runx2 
+TGF-β 			Hoxa10 , Hoxa3 , OPN , Sox7 , Stat3 , TNF-α , p53 						NF-κB , NR2F2 , RARs , Stat1 , Stat5 
+TNF-α 			IL-1 , NF-κB  															IL-10 
+
+
+Growth factor
+BMP 			EGFR , FGFR2 , Gata4/6 , Runx1 											NOG , NR2F2 , TGF-β  
+EGF 			HIF 
+EGFR 			EGF , Myc , Runx1 , Sox4 												PTEN 
+FGF2 			HSPG2 , Hoxa10 
+FGF7 			HSPG2 , IL-1  
+FGFR2 			FGF2 , FGF7 , Hoxa10 , Runx2 											PRDM14 
+G-CSFR 			C/EBPα , NF-κB , Pu.1 
+VEGF 			Gata4/6 , HIF , NR2F2 , PGC-1 , SHH , Stat3 , TGF-β 					RARs , Sox9 
+
+
+Stress Response
+Akt 			EGF , EGFR , FGFR2 , NF-κB , Notch , PKA , Ras , c-Jun 					PTEN 
+AP2 			C/EBPβ , NR2F2 , RARs 
+Bach1 			HIF , TGF-β 
+c-Jun 			Akt , EGFR , Runx1 , TNF-α 												C/EBPα 
+HIF 			Akt , Stat3  															p53 
+MAPK 			EGFR , FGFR2 , IFN-γ , Integrin , NF-κB , NR2F2 , PPARγ , Ras 			PTEN , TGF-β 
+p53 			Cdk6 , IFN-γ , Myc , PPARγ , PTEN , RARs 								Akt , Bach1 , Sox4 
+PKA 			Akt , EGFR , TGF-β  													p53 
+PTEN 			AP2 , PPARγ , p53  														NF-κB , Stat3 
+
+
+ECM (Extracellular matrix)
+HSPG2 			Runx2 , TGF-β 
+Integrin 		EGF , MAPK , TNF-α , VEGF 			Myc 
+NGAL 			IFN-γ , Runx1 , TNF-α 
+NOG 			SHH , Sox9 , Wnt  			FGFR2 
+Notch 			Cdx2 , FGFR2 , NF-κB , Stat3 			BMP , C/EBPα , Hoxa5 , NR2F2 
+OPN 			Runx1 , Runx2 , TGF-β  			*PGC-1 
+SHH 			Sox2 , TGF-β  			BMP , Cdx2 , Hes1 , p53 
+Wnt 			PGC-1 , Sox4 , TGF-β  			Cdx2 , Sox2 , Sox7 , Sox9 
+
+
+Nuclear Receptor (NR)
+NR2F2 			SHH , Wnt 
+RARs 			AP2 , PPARγ  			MAPK , NR2F2 

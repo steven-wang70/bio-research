@@ -1,0 +1,24 @@
+[NodeIDs] // Optional
+ID=1;Name=Node1
+ID=2;Name=Node2
+ID=3;Name=Node3
+ID=4;Name=Node4
+
+[InputPoints] // Optional
+ID=11;State=0
+ID=12;State=1
+
+[Gates]
+ID=1;InputNode=3,4;Synergy=1,-1;Logic=0111
+ID=2;InputNode=1,2;Logic=0111
+ID=3;InputNode=1,2;Logic=0001
+ID=4;InputNode=3,4;Logic=0100
+
+[OutputGates] // Optional
+ID=1
+ID=2
+ID=3
+ID=4
+
+[InitialStates] // Optional
+ID=1;InitialState=0

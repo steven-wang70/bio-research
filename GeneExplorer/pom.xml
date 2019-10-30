@@ -1,0 +1,73 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>GeneExplorerApp</groupId>
+  <artifactId>GeneExplorer</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>GeneExplorer</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+	<repositories>             
+	  <repository>
+	    <id>jensembl-maven-repo</id>
+	    <name>JEnsembl repository</name>
+	    <releases>
+	      <enabled>true</enabled>
+	      <checksumPolicy>ignore</checksumPolicy>
+	    </releases>
+	    <snapshots>
+	      <enabled>false</enabled>
+	    </snapshots>
+	    <url>http://jensembl.sourceforge.net/m2-repo</url>
+	    <layout>default</layout>
+	  </repository>
+	  <repository>
+	    <id>biojava-maven-repo</id>
+	    <name>BioJava repository</name>
+	    <url>http://www.biojava.org/download/maven/</url>
+	    <snapshots>
+	      <enabled>true</enabled>
+	    </snapshots>
+	    <releases>
+	      <enabled>true</enabled>
+	      <checksumPolicy>ignore</checksumPolicy>
+	    </releases>
+	  </repository>
+	</repositories>
+
+  <dependencies>
+	<dependency>
+		<groupId>org.mybatis</groupId>
+		<artifactId>mybatis</artifactId>
+		<version>3.2.8</version>
+	</dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+	  <dependency>
+	    <groupId>uk.ac.roslin</groupId>
+	    <artifactId>ensembl-data-access</artifactId>
+	    <version>1.78</version>
+	  </dependency>
+	  <dependency>
+	    <groupId>uk.ac.roslin</groupId>
+	    <artifactId>ensembl-config</artifactId>
+	    <version>1.78</version>
+	  </dependency>
+      <dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-log4j12</artifactId>
+	    <version>1.7.12</version>
+	  </dependency>
+  </dependencies>
+</project>

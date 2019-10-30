@@ -1,0 +1,35 @@
+Pathways	ID	Weblink
+KEGG_WNT_SIGNALING_PATHWAY	04310	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_WNT_SIGNALING_PATHWAY
+KEGG_HEDGEHOG_SIGNALING_PATHWAY	04340	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_HEDGEHOG_SIGNALING_PATHWAY
+KEGG_JAK_STAT_SIGNALING_PATHWAY	04630	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_JAK_STAT_SIGNALING_PATHWAY
+KEGG_NOTCH_SIGNALING_PATHWAY	04330	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_NOTCH_SIGNALING_PATHWAY
+KEGG_APOPTOSIS	04210	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_APOPTOSIS
+KEGG_RAS_SIGNALING_PATHWAY	04014	http://www.broadinstitute.org/gsea/msigdb/cards/BIOCARTA_RAS_PATHWAY
+KEGG_FOCAL_ADHESION	04510	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_FOCAL_ADHESION
+KEGG_CELL_ADHESION_MOLECULES_CAMS	04514	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_CELL_ADHESION_MOLECULES_CAMS
+KEGG_TGF_BETA_SIGNALING_PATHWAY	04350	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_TGF_BETA_SIGNALING_PATHWAY
+KEGG_P53_SIGNALING_PATHWAY	04115	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_P53_SIGNALING_PATHWAY
+KEGG_PPAR_SIGNALING_PATHWAY	03320	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_PPAR_SIGNALING_PATHWAY
+KEGG_MISMATCH_REPAIR	03430	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_MISMATCH_REPAIR
+KEGG_MAPK_SIGNALING_PATHWAY	04010	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_MAPK_SIGNALING_PATHWAY
+KEGG_ERBB_SIGNALING_PATHWAY	04012	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_ERBB_SIGNALING_PATHWAY
+KEGG_CYTOKINE_CYTOKINE_RECEPTOR_INTERACTION	04060	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_CYTOKINE_CYTOKINE_RECEPTOR_INTERACTION
+KEGG_ADIPOCYTOKINE_SIGNALING_PATHWAY	04920	http://www.genome.jp/dbget-bin/www_bget?map04920
+KEGG_MTOR_SIGNALING_PATHWAY	04150	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_MTOR_SIGNALING_PATHWAY
+KEGG_HIF1_SIGNALING_PATHWAY	04066	http://www.genome.jp/dbget-bin/www_bget?map04066
+KEGG_PI3K_AKT_PATHWAY	04151	http://www.genome.jp/dbget-bin/www_bget?map04151
+KEGG_VEGF_SIGNALING_PATHWAY	04370	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_VEGF_SIGNALING_PATHWAY
+KEGG_ECM_RECEPTOR_INTERACTION	04512	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_ECM_RECEPTOR_INTERACTION
+KEGG_ADHERENS_JUNCTION	04520	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_ADHERENS_JUNCTION
+KEGG_MELANOGENESIS	04916	http://www.broadinstitute.org/gsea/msigdb/cards/KEGG_MELANOGENESIS
+Regulation of lipolysis in adipocytes	04923 	http://www.genome.jp/dbget-bin/www_bget?map04923
+Chemical carcinogenesis	05204	http://www.genome.jp/dbget-bin/www_bget?map05204
+Cell Cycle	04112	http://www.genome.jp/dbget-bin/www_bget?map04112
+KEGG_NOD_LIKE_RECEPTOR_SIGNALING_PATHWAY	04621	> NOD-like receptor signaling pathway
+KEGG_T_CELL_RECEPTOR_SIGNALING_PATHWAY	04660	> T cell receptor signaling pathway
+Signaling pathways regulating pluripotency of stem cells	04550	http://www.genome.jp/dbget-bin/www_bget?map04550
+KEGG_DRUG_METABOLISM_CYTOCHROME_P450	00980	http://www.genome.jp/dbget-bin/www_bget?map00980
+Drug metabolism - cytochrome P450	00982	
+KEGG_DRUG_METABOLISM_OTHER_ENZYMES	00983	http://www.genome.jp/dbget-bin/www_bget?map00983
+NF-kappa B signaling pathway	04064	
+KEGG TNF Sigaling pathway	04668	
